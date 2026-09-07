@@ -157,4 +157,4 @@ result.json                    # full run output (generated)
 - [x] On-chain record + re-verification demonstrated
 - [x] No website needed — CLI pipeline only
 - [x] GitHub repo pushed with this README — https://github.com/n1k1tHa-dotcom/face-blockchain-pipeline
-- [ ] Screen recording of the working pipeline + link
+- [x] Screen recording of the working pipeline + [link](https://drive.google.com/file/d/1DLmId2vVWMRf6yo714N6zOuns4DHlNko/view?usp=sharing)
