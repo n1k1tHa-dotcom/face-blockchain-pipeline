@@ -1,0 +1,8 @@
+.venv/
+.env
+.freebuff/
+__pycache__/
+*.pyc
+face_crop.jpg
+result.json
+.local_chain.json

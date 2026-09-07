@@ -1,0 +1,24 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.20;
+
+contract FacePostAnchor {
+    mapping(bytes32 => bool) private anchoredHashes;
+
+    event HashAnchored(
+        bytes32 indexed contentHash,
+        address indexed submittedBy,
+        uint256 timestamp
+    );
+
+    function anchor(bytes32 contentHash) external {
+        require(!anchoredHashes[contentHash], "Hash already anchored");
+
+        anchoredHashes[contentHash] = true;
+
+        emit HashAnchored(contentHash, msg.sender, block.timestamp);
+    }
+
+    function verify(bytes32 contentHash) external view returns (bool) {
+        return anchoredHashes[contentHash];
+    }
+}
