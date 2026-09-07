@@ -156,5 +156,5 @@ result.json                    # full run output (generated)
 - [x] Genuine search step (no hardcoded results)
 - [x] On-chain record + re-verification demonstrated
 - [x] No website needed — CLI pipeline only
-- [ ] GitHub repo pushed with this README
+- [x] GitHub repo pushed with this README — https://github.com/n1k1tHa-dotcom/face-blockchain-pipeline
 - [ ] Screen recording of the working pipeline + link
